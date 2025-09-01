@@ -1,4 +1,6 @@
 ﻿
+using Core.Entities.Concrete;
+
 namespace Business.Constants
 {
     public static class Messages
@@ -10,5 +12,13 @@ namespace Business.Constants
         public static string ProductCountOfCategoryError = "Bir kategoride en fazla 10 ürün olabilir !";
         public static string ProductNameAlreadyExists = "Aynı isme sahip ürün bulunuyor !";
         public static string CategoryLimitExceded = "Kategori limiti aşıldığı için yeni ürün eklenemiyor !";
+        public static string AuthorizationDenied = "Yetkiniz yok!";
+        public static string UserRegistered = "Kullanıcı kayıt oldu";
+        public static string UserNotFound = "Kullanıcı bulunamadı!";
+        public static string SuccessfulLogin = "Başarılı giriş.";
+        public static string UserAlreadyExists = "Kullanıcı zaten kayıtlı";
+        public static string AccessTokenCreated = "Token oluşturuldu";
+
+        public static string PasswordError = "Parola hatalı!";
     }
 }
